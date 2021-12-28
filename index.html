@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Fox</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
   <style>
     body {
       background-color: black;
@@ -44,6 +45,28 @@
       font-size: 32px;
       color: silver;
     }
+
+    .socials {
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+    }
+
+    .socials a {
+      color: #EEE;
+      font-size: 3em;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .socials a img {
+      height: 1em;
+      width: 1em;
+    }
+
+    .socials a:hover, .socials a:visited {
+      color: #9C59D1;
+    }
   </style>
 </head>
 <body>
@@ -51,6 +74,10 @@
     <img class="fox-face" src="./fox-face.png" alt="Fox face" />
     <h1>Fox</h1>
     <div class="pronouns">they / them</div>
+    <div class="socials">
+      <a href="mailto:william@foxy.geek.nz" class="material-icons-outlined">email</a>
+      <a href="https://namemc.com/profile/Fluffywoodland" class="minecraft"><img src="./minecraft.png" /></a>
+    </div>
   </div>
 </body>
 </html>
